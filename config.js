@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url'
 
 global.owner = [
   ['6285608625102', 'Rama', true],
-  ['6287877173955', 'Ferdiz, true]
+  ['6287877173955', 'Ferdiz', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
