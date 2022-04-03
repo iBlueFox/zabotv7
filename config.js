@@ -2,9 +2,7 @@ import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
-global.owner = [
-  ['6285608625102', 'Rama', true],
-  ['6287877173955', 'Ferdiz', true]
+global.owner = ['6281515860089', '6281334177340', '6283128734012']
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
