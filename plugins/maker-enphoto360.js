@@ -10,8 +10,8 @@ let handler = async (m, { conn, args: [effect], text: txt }) => {
   let url = global.API('xteam', '/ephoto/' + effect, { text, text2, text3 }, 'APIKEY')
   await conn.sendFile(m.chat, url, 'ephoto.jpg', `*ENPHOTO360*\n*Effect:* ${effect}`, m)
 }
-handler.help = ['enphoto'].map(v => v + ' <effect> <text>|[text2]|[text3]')
+handler.help = ['enphoto360'].map(v => v + ' <effect> <text>|[text2]|[text3]')
 handler.tags = ['maker']
-handler.command = /^(en?photo(360)?)$/i
+handler.command = /^(enphoto360)$/i
 
 export default handler
