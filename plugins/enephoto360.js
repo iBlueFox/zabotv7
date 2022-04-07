@@ -14,4 +14,4 @@ handler.help = ['enphoto'].map(v => v + ' <effect> <text>|[text2]|[text3]')
 handler.tags = ['maker']
 handler.command = /^(en?photo(360)?)$/i
 
-module.exports = handler
+export default handler
