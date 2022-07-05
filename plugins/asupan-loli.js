@@ -3,9 +3,10 @@ let handler = async (m, { conn, text }) => {
     let url = yh[Math.floor(Math.random() * yh.length)]
     conn.sendButton(m.chat, 'Random Video Loli Lucu', 'Lolinya Kaak', url, [['/loli', 'Get Again']], m)
   }
-  handler.command = /^(loli)$/i
+  handler.command = /^(asupanloli)$/i
   handler.tags = ['premium']
   handler.help = ['asupanloli']
+  handler.premium = true
   export default handler
   
  global.loli = [
