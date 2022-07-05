@@ -18,4 +18,4 @@ handler.command = /^(add|tambah|\+)prem$/i
 
 handler.rowner = true
 
-module.exports = handler
+export default handler
