@@ -12,7 +12,7 @@ let handler = async (m, { conn, text, isOwner }) => {
 }
 handler.help = ['join <chat.whatsapp.com>']
 handler.tags = ['main']
-
+handler.owner = true
 handler.command = /^join$/i
 
 export default handler
