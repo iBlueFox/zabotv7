@@ -18,5 +18,4 @@ handler.tags = ['owner']
 handler.command = /^(remove|hapus|-|del)prem$/i
 
 handler.owner = true
-
-module.exports = handler
+export default handler
