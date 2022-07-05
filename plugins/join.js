@@ -14,7 +14,7 @@ handler.help = ['join <chat.whatsapp.com>']
 handler.tags = ['main']
 handler.owner = true
 handler.command = /^join$/i
-
+handler.premium = true
 export default handler
 
 const isNumber = (x) => (x = parseInt(x), typeof x === 'number' && !isNaN(x))
