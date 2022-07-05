@@ -12,7 +12,8 @@
     "scripts": {
         "start": "node index.js",
         "cli": "node . --optimize_for_size --max_old_space_size=460 index.js",
-        "db": "node . --autocleartmp --db 'mongodb+srv://LeonGanz:Rama050307@cluster0.gwfei.mongodb.net/zabotv6?retryWrites=true&w=majority'"
+        "db": "node . --db 'mongodb+srv://ozan:Akhmad6825@cluster0.mflne.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'"
+"
     },
     "homepage": "https://github.com/ZaBot-MD",
     "author": {
