@@ -1,11 +1,11 @@
 let handler = async (m, {command, conn}) => {
     if (command == 'nsfwloli') {
         m.reply('_sedang di proses_')
-        let haha = await conn.getFile(`https://api-reysekha.herokuapp.com/api/wallpaper/nsfwloli?apikey=APIKEY`)
+        let haha = (`https://api-reysekha.herokuapp.com/api/wallpaper/nsfwloli?apikey=APIKEY`)
         conn.sendButton(m.chat, `_${command}_`.trim(), author, haha, [['NEXT', `/${command}`]], m)
     } else {
         m.reply('_sedang di proses_')
-        let haha = await conn.getFile(`https://api.zeeoneofc.xyz/api/nsfw/${command.replace('nsfw', '')}?apikey=OKoJdo32`)
+        let haha = (`https://api.zeeoneofc.xyz/api/nsfw/${command.replace('nsfw', '')}?apikey=OKoJdo32`)
         conn.sendButton(m.chat, `_${command}_`.trim(), author, haha, [['NEXT', `/${command}`]], m)
     }
 }
