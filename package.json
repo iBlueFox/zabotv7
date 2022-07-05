@@ -16,7 +16,7 @@
     },
     "homepage": "https://github.com/ZaBot-MD",
     "author": {
-        "name": "leon"
+        "name": "ozan"
     },
     "repository": {
         "type": "git",
@@ -27,7 +27,7 @@
     },
     "license": "MIT",
     "dependencies": {
-        "@adiwajshing/baileys": "^4.0.0",
+        "@adiwajshing/baileys": "^4.0.1",
         "@bochilteam/scraper": "^1.0.5",
         "awesome-phonenumber": "^2.68.0",
         "axios": "^0.24.0",
@@ -43,7 +43,7 @@
         "jsdom": "^19.0.0",
         "lodash": "^4.17.21",
         "lowdb": "^3.0.0",
-        "mongoose": "github:Automattic/mongoose",
+        "mongoose": "^6.4.3",
         "node-fetch": "^3.2.0",
         "node-gtts": "^2.0.2",
         "node-webpmux": "^3.1.1",
