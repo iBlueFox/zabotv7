@@ -1,7 +1,7 @@
 let handler = async (m, { conn, text }) => {
-    let yh = global.loli
+    let yh = global.asupan
     let url = yh[Math.floor(Math.random() * yh.length)]
-    conn.sendButton(m.chat, 'Random Video Loli Lucu', 'Lolinya Kaak', url, [['/loli', 'Get Again']], m)
+    conn.sendButton(m.chat, 'Random Video Loli Lucu', 'Lolinya Kaak', url, [['.asupanloli', 'Get Again']], m)
   }
   handler.command = /^(asupanloli)$/i
   handler.tags = ['premium']
@@ -9,7 +9,7 @@ let handler = async (m, { conn, text }) => {
   handler.premium = true
   export default handler
   
- global.loli = [
+ global.asupan = [
   "https://tinyurl.com/yevu67m4",
   "https://tinyurl.com/yzkql4ts",
   "https://tinyurl.com/yg97y593",
